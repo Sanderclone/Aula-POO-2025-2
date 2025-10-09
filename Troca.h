@@ -10,7 +10,7 @@ public:
     std::string destinatario;
     int figDesejada;
     int figOfertada;
-    int status; // 0=aguardando,1=aceita,2=recusada
+    int status; 
 
     Troca();
     Troca(int id, const std::string &r, const std::string &d, int desejada, int ofertada, int status);
