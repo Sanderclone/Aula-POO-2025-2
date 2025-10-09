@@ -8,7 +8,6 @@ class Usuario {
 public:
     std::string username;
     std::string password;
-    // colecao: mapa idFigurinha -> status (0=na colecao,1=colada,2=disponivel para troca)
     std::map<int,int> colecao;
 
     Usuario();
