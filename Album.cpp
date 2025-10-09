@@ -27,7 +27,6 @@ void Album::carregarFigurinhas() {
     catalogo.clear();
     std::ifstream in("figurinhas.csv");
     if (!in.is_open()) {
-        // Cria figurinhas.csv com todo o catálogo completo (Copa 2022) a partir da lista fornecida.
         std::vector<std::pair<std::string,std::string>> inic = {
             // GRUPO A - CATAR
             {"Saad Alsheeb","Catar"}, {"Meshaal Barsham","Catar"}, {"Yousef Hassan","Catar"},
